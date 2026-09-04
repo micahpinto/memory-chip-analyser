@@ -23,9 +23,9 @@ The tool groups consecutive bits into configurable block sizes (2, 3, or 4 bits)
 4. **File Support** - Works with any binary file (.bin, .img, etc.)
 5. **Configurable Block Sizes** - Analyze 2-bit, 3-bit, or 4-bit patterns
 
-# CLI Version (Main Branch)
+## CLI Version (Main Branch)
 
-## Description
+** Description**
 
 The command-line version provides a simple, lightweight interface with no GUI dependencies. Perfect for automation, scripting, or if you prefer terminal-based tools.
 
@@ -48,30 +48,7 @@ Total number of blocks: 50000
 **Description**
 
 The GUI version provides a graphical interface using tkinter. Perfect for users who prefer point-and-click interaction over command-line input.
-A window will open with the following interface:
-
-╔════════════════════════════════════════╗
-║   Binary Pattern Analyser              ║
-├────────────────────────────────────────┤
-│                                        │
-│ File: [________________] [Browse...]   │
-│                                        │
-│ Block Size: [2 ▼]                      │
-│                                        │
-│ [Analyse]                              │
-│                                        │
-│ Results:                               │
-│ ─────────────────────────────────────  │
-│ Pattern    Occurrences      Frequency  │
-│ 00                 12450      0.312450 │
-│ 01                 12500      0.312500 │
-│ 10                 12380      0.309500 │
-│ 11                 12670      0.317550 │
-│                                        │
-│ Total number of blocks: 50000          │
-│                                        │
-╚════════════════════════════════════════╝
-```
+A window will open with a user interface.
 
 ### Step-by-Step Guide (GUI Version)
 
@@ -98,7 +75,7 @@ A window will open with the following interface:
 Pattern    Occurrences      Frequency
 --------------------------------------
 00                 12450      0.312450
-```
+
 - Pattern `00` appears 12,450 times
 - This represents 31.245% of all 2-bit blocks
 
