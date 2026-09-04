@@ -1,4 +1,5 @@
 ## Binary Pattern Analyser
+
 A tool that analyzes bit patterns in binary files and provides detailed frequency statistics. Designed specifically for analyzing raw memory chip dumps.
 
 **Available in two versions:**
@@ -13,6 +14,7 @@ This tool was developed to analyze binary dump files from memory chips read usin
 2. **Data recovery assessment** - Identifying patterns in erased memory
 3. **Forensic analysis** - Analyzing bit-level patterns in binary data
 4. **Quality control** - Detecting anomalies in memory chip data
+
 The tool groups consecutive bits into configurable block sizes (2, 3, or 4 bits) and counts how often each possible pattern appears.
 
 ## Features
@@ -25,11 +27,13 @@ The tool groups consecutive bits into configurable block sizes (2, 3, or 4 bits)
 
 ## CLI Version (Main Branch)
 
-** Description**
+**Description**
 
 The command-line version provides a simple, lightweight interface with no GUI dependencies. Perfect for automation, scripting, or if you prefer terminal-based tools.
 
-**Example output: **
+**Example output:**
+
+```
 File: chip_dump.bin
 Block size: 2 bits
 
@@ -41,13 +45,14 @@ Pattern    Occurrences      Frequency
 11                 12670      0.317550
 
 Total number of blocks: 50000
-
+```
 
 ## GUI Version (gui-version Branch)
 
 **Description**
 
 The GUI version provides a graphical interface using tkinter. Perfect for users who prefer point-and-click interaction over command-line input.
+
 A window will open with a user interface.
 
 ### Step-by-Step Guide (GUI Version)
@@ -69,13 +74,13 @@ A window will open with a user interface.
    - Click the **"Analyse"** button
    - Results appear in the text area below
 
-
 **Example Output:**
 
+```
 Pattern    Occurrences      Frequency
 --------------------------------------
 00                 12450      0.312450
+```
 
 - Pattern `00` appears 12,450 times
 - This represents 31.245% of all 2-bit blocks
-
